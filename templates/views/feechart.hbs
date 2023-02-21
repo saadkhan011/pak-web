@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pak Scholars Institute/fee chart</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- fotter -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="css/sty.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    {{!-- for favicon --}}
+  <link rel="shortcut icon" href="css/favicon.png" type="image/x-icon">
+</head>
+<style>
+  body, html {
+          height: 100%;
+          margin: 0;
+        }
+        
+        .hero-image {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/image/img22.jpg");
+          height: 70%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+        }
+        
+        .hero-text {
+          text-align: center;
+          position: absolute;
+          top: 55%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          
+        }
+  .testimonials {
+    position: relative;
+    max-width: 100%;
+    margin: 119px 0px 191px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    -webkit-box-reflect: below 1px linear-gradient(transparent 70%, #0009);
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    min-height: 350px;
+    margin: 0 20px;
+    background: #fff;
+  }
+
+  .swiper-container-3d .swiper-slide-shadow-left,
+  .swiper-container-3d .swiper-slide-shadow-right {
+    background-image: none;
+  }
+
+  .testimonials .card {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.883);
+    border-radius: 0px;
+    padding: 60px 40px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .testimonials .card .layer {
+    position: absolute;
+    top: calc(100% - 2px);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#03a9f4, #e91ee3);
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  .testimonials .card:hover .layer {
+    top: 0;
+  }
+
+  .testimonials .card .content {
+    position: relative;
+    z-index: 2;
+  }
+
+  .testimonials .card .content p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  {{!-- .testimonials .card .content .imgBx {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    {{!-- border-radius: 50%; --}}
+    overflow: hidden;
+    {{!-- border: 4px solid #fff; --}}
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  } --}}
+
+  .testimonials .card .content h2 {
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .testimonials .card .content h2 span {
+    color: #03a9f4;
+    font-size: 14px;
+    transition: 0.5s;
+  }
+
+  .testimonials .card:hover .content h2 span {
+    color: #fff;
+  }
+</style>
+
+<body style="background-color:#7a7c7d!important;">
+  {{>navbar}}
+
+<div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:530%">Fee Chart</h1>
+          <p></p>
+           <a class="but" href="/register">Contact US</a>
+        </div>
+      </div>
+  <div class="testimonials">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="layer"></div>
+            <div class="content">
+              <h1 style="color: rgb(0, 207, 197)">Free Trial $0</h1>
+              <hr style="height: 9px; color:rgb(13, 235, 224)">
+              <h4 style="color: #fff;">Lecture Duration: 30 Minutes</h4>
+                <hr style="height: 4px; color:rgb(255, 255, 255)">
+                <h4 style="color: #fff;">
+                  Trial Duration: One Week
+                </h4>
+                <hr style="height: 4px; color:rgb(255, 255, 255)">
+                <h4 style="color: #fff;">
+                  Admission: Free</h4>
+                  <hr style="height: 4px; color:rgb(255, 255, 255)">
+
+                  <img src="/image/gh.png" class="logo" alt="" width="114" >
+                  <div class="details">
+                    <a class="but" href="/register">Contact Now</a>
+                    
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="layer"></div>
+            <div class="content">
+              <h1 style="color: rgb(3, 47, 241)">$30</h1>
+              <hr style="height: 9px; color:rgb(2, 79, 223)">
+              <h4 style="color: #fff;">Lecture Duration: 30 Minutes</h4>
+                <hr style="height: 4px; color:rgb(255, 255, 255)">
+                <h4 style="color: #fff;">
+                  Days: 3 Per Week
+                </h4>
+                <hr style="height: 4px; color:rgb(255, 255, 255)">
+                <h4 style="color: #fff;">
+                  2nd Student: 10% Off</h4>
+                  <hr style="height: 4px; color:rgb(255, 255, 255)">
+
+                  <img src="/image/gh.png" class="logo" alt="" width="114" >
+                  <div class="details">
+                   <a class="but" href="/register">Contact Now</a>
+                  </div>
+            </div>
+          </div>
+     
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="layer"></div>
+            <div class="content">
+              <h1 style="color: #ffe004;">$40</h1>
+              <hr style="height: 9px; color:#ffe004">
+              <h4 style="color: #fff;">Lecture Duration: 30 Minutes</h4>
+                <hr style="height: 4px; color:rgb(255, 255, 255)">
+                <h4 style="color: #fff;">
+                  Days: 4 Per Week
+                </h4>
+                <hr style="height: 4px; color:rgb(255, 255, 255)">
+                <h4 style="color: #fff;">
+                  2nd Student: 10% Off</h4>
+                  <hr style="height: 4px; color:rgb(255, 255, 255)">
+
+                  <img src="/image/gh.png" class="logo" alt="" width="114" >
+                  <div class="details">
+                    <a class="but" href="/register">Contact Now</a>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="layer"></div>
+            <div class="content">
+              <h1 style="color: rgb(0, 226, 0)">$50</h1>
+              <hr style="height: 9px; color:rgb(4, 187, 4)">
+              <h4 style="color: #fff;">Lecture Duration: 30 Minutes</h4>
+                <hr style="height: 4px; color:rgb(255, 255, 255)">
+                <h4 style="color: #fff;">
+                  Days: 5 Per Week
+                </h4>
+                <hr style="height: 4px; color:rgb(255, 255, 255)">
+                <h4 style="color: #fff;">
+                   2nd Student: 10% Off</h4>
+                  <hr style="height: 4px; color:rgb(255, 255, 255)">
+
+                  <img src="/image/gh.png" class="logo" alt="" width="114" height="114" class="d-inline-block">
+                  <div class="details">
+                   <a class="but" href="/register">Contact Now</a>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="layer"></div>
+            <div class="content">
+              <h1 style="color: rgb(192, 46, 10)">$60</h1>
+              <hr style="height: 9px; color:rgb(209, 72, 9)">
+              <h4 style="color: #fff;">Lecture Duration: 30 Minutes</h4>
+                <hr style="height: 4px; color:rgb(255, 255, 255)">
+                <h4 style="color: #fff;">
+                   Days: 7 Per Week
+                </h4>
+                <hr style="height: 4px; color:rgb(255, 255, 255)">
+                <h4 style="color: #fff;">
+                   2nd Student: 10% Off</h4>
+                  <hr style="height: 4px; color:rgb(255, 255, 255)">
+
+                  <img src="/image/gh.png" class="logo" alt="" width="114" height="114" class="d-inline-block">
+                  <div class="details">
+                    <a class="but" href="/register">Contact Now</a>
+                  </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        
+       
+        
+      
+      </div>
+    </div>
+  </div>
+
+
+  {{>footer}}
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 0,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop: true,
+    });
+  </script>
+  {{!-- </script> --}}
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
